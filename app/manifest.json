@@ -1,0 +1,10 @@
+{
+    "name": "Portal Karyawan",
+    "short_name": "Portal",
+    "description": "Sistem Manajemen Cuti dan Izin Karyawan",
+    "start_url": "/dashboard",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0070f3",
+    "orientation": "portrait"
+  }
