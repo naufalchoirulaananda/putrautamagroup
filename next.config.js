@@ -20,7 +20,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "putrautamagroup.com",
+        hostname: "putrautamagroup.site",
         pathname: "/uploads/**",
       },
     ],
