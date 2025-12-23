@@ -30,7 +30,7 @@ export function generateVerificationURL(
   approvalLevel: number
 ): string {
   // Ganti dengan domain Anda
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://putrautamagroup.com';
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://putrautamagroup.site';
   return `${baseUrl}/verify/cuti/${cutiId}/${approvalLevel}`;
 }
 
