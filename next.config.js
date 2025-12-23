@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   swcMinify: true,
-
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
   },
-
   webpack: (config, { isServer }) => {
     if (isServer) {
       config.externals.push({
@@ -15,8 +13,8 @@ const nextConfig = {
     }
     return config;
   },
-
   images: {
+    unoptimized: true, // 🔥 TAMBAHKAN BARIS INI
     remotePatterns: [
       {
         protocol: "https",
@@ -26,5 +24,4 @@ const nextConfig = {
     ],
   },
 };
-
 module.exports = nextConfig;
