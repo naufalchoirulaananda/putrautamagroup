@@ -224,6 +224,7 @@ function AssetList({
                   fill
                   alt={aset.nama_aset}
                   className="object-cover rounded-md"
+                  unoptimized
                 />
               </div>
 
@@ -280,6 +281,7 @@ function AssetList({
                               }`}
                               className="object-contain"
                               sizes="(max-width: 768px) 95vw, (max-width: 1200px) 50vw, 33vw"
+                              unoptimized
                             />
 
                             {getPhotoUrls(selectedAset).length > 1 && (
